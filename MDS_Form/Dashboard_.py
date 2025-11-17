@@ -120,7 +120,7 @@ else:
                 if st.button("✏️ Edit", key=f"edit_{idx}"):
                     # Put the activity id into session and navigate
                     st.session_state.edit_activity_id = item.get("activity_id")
-                    st.switch_page("pages/1_Form_Page.py")
+                    st.switch_page("pages/1_Form_Page_.py")
 
             with col2:
                 if st.button("🗑️ Delete", key=f"delete_{idx}"):
